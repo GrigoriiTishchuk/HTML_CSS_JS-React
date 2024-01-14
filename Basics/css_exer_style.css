@@ -1,0 +1,14 @@
+p  {
+  border-style: solid;
+  border-color: red;
+}
+
+div {
+  border-style: dotted;
+  border-color: blueviolet;
+}
+
+a{
+  border-style: dashed;
+  border-color: green;
+}

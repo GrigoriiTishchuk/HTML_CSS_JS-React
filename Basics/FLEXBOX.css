@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+.header-image{
+    background-image: url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    width: "300px";
+    height: "200px";
+}
+
+/* Header styles */
+header {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+}
+
+.upper-nav nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.upper-nav nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.upper-nav nav ul li a{
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-content img {
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 20px;
+    float: right;
+}
+
+article {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Sidebar styles */
+
+
+.sidebar {
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+}
+
+.sidebar nav {
+    justify-content: flex-start;
+}
+
+.sidebar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    row-gap: 20px;
+}
+
+.sidebar nav ul li {
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.sidebar nav ul li a{
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer-image{
+    background-image: url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    width: "300px";
+    height: "400px";}
+
+/*footer styles*/
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}

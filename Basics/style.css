@@ -1,0 +1,18 @@
+h1{
+    color: green;
+    text-align: center;
+}
+
+p{
+    font-size: 130%;
+    text-align: center;
+}
+
+
+.img
+{
+    background-image: url("so1NKi2F_400x400.png");
+    width: "300px";
+    height: "200px";
+}
+

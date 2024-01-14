@@ -1,0 +1,16 @@
+#one {
+    background-color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#two {
+    text-indent: 100px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 20px; 
+    line-height: 15px;
+    font-family: Georgia;
+    font-size: 1.6em;
+    font-weight: Bold;
+}
